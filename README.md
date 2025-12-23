@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nguyen Huy Hoang</h1>
 <h3 align="center">🌟 About Me 🌟</h3>
 <ul>
-  <li>🎓 2nd-year Computer Science Student at Hanoi University of Industry</li>
+  <li>🎓 3nd-year Computer Science Student at Hanoi University of Industry</li>
   <li>🚀 Passionate about Artificial Intelligence, Machine Learning, and Business Management</li>
   <li>💡 Aspiring to become a Senior AI Engineer and ultimately a Tech Entrepreneur</li>
   <li>🌏 Based in Hanoi, Vietnam</li>
