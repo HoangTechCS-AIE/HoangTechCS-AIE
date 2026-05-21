@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" role="img" aria-label="NHH-002 Operating system">
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace; }
+    .pri { fill: #0B1110; }
+    .mute { fill: #535C57; }
+    .dim { fill: #8B9590; }
+    .teal { fill: #0F766E; }
+    .warm { fill: #B45309; }
+    .l-faint { stroke: #C7CDC4; stroke-width: 1; }
+    .l-line { stroke: #A8B0A8; stroke-width: 1; }
+    .l-teal { stroke: #0F766E; stroke-width: 1; }
+  </style>
+  <defs>
+    <pattern id="g2" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#D9DCD7"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="460" fill="#FAFAF7"/>
+  <rect width="1200" height="460" fill="url(#g2)"/>
+
+  <!-- header strip -->
+  <circle cx="40" cy="32" r="3" fill="#0F766E"/>
+  <text x="56" y="36" class="mono mute" font-size="11" letter-spacing="1.2">NHH-002 :: OPERATING SYSTEM / 4 ACTIVE TRACKS</text>
+  <text x="1160" y="36" class="mono dim" font-size="11" text-anchor="end" letter-spacing="1.2">DEPTH · SELF-INDEX / 0—10</text>
+  <line x1="40" y1="54" x2="1160" y2="54" class="l-faint" stroke-dasharray="2,4"/>
+
+  <!-- column headers -->
+  <text x="56" y="94" class="mono dim" font-size="10" letter-spacing="1.6">P/N</text>
+  <text x="140" y="94" class="mono dim" font-size="10" letter-spacing="1.6">TRACK</text>
+  <text x="490" y="94" class="mono dim" font-size="10" letter-spacing="1.6">SHARPENING</text>
+  <text x="940" y="94" class="mono dim" font-size="10" letter-spacing="1.6">DEPTH</text>
+  <line x1="56" y1="106" x2="1144" y2="106" class="l-faint"/>
+
+  <!-- TRACK 001 -->
+  <g>
+    <text x="56" y="146" class="mono dim" font-size="13">001</text>
+    <text x="140" y="146" class="mono pri" font-size="22" font-weight="600" letter-spacing="-0.6">APPLIED AI</text>
+    <text x="140" y="166" class="mono dim" font-size="10" letter-spacing="1.2">PRIMARY · ACTIVE</text>
+    <text x="490" y="146" class="mono mute" font-size="12">pytorch workflows · model training · intelligent automation</text>
+    <!-- depth bar: 7/10 filled -->
+    <g transform="translate(940, 134)">
+      <rect x="0"   y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="20"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="40"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="60"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="80"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="100" y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="120" y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="140" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="160" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="180" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <text x="208" y="11" class="mono teal" font-size="11">7/10</text>
+    </g>
+    <line x1="56" y1="180" x2="1144" y2="180" class="l-faint" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- TRACK 002 -->
+  <g>
+    <text x="56" y="220" class="mono dim" font-size="13">002</text>
+    <text x="140" y="220" class="mono pri" font-size="22" font-weight="600" letter-spacing="-0.6">BACKEND</text>
+    <text x="140" y="240" class="mono dim" font-size="10" letter-spacing="1.2">PRIMARY · ACTIVE</text>
+    <text x="490" y="220" class="mono mute" font-size="12">clean apis · reliable services · data plumbing</text>
+    <g transform="translate(940, 208)">
+      <rect x="0"   y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="20"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="40"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="60"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="80"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="100" y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="120" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="140" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="160" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="180" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <text x="208" y="11" class="mono teal" font-size="11">6/10</text>
+    </g>
+    <line x1="56" y1="254" x2="1144" y2="254" class="l-faint" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- TRACK 003 -->
+  <g>
+    <text x="56" y="294" class="mono dim" font-size="13">003</text>
+    <text x="140" y="294" class="mono pri" font-size="22" font-weight="600" letter-spacing="-0.6">ALGORITHMS</text>
+    <text x="140" y="314" class="mono dim" font-size="10" letter-spacing="1.2">DAILY · DRILL</text>
+    <text x="490" y="294" class="mono mute" font-size="12">codeforces · leetcode · data structures &amp; problem patterns</text>
+    <g transform="translate(940, 282)">
+      <rect x="0"   y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="20"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="40"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="60"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="80"  y="0" width="18" height="14" fill="#0F766E"/>
+      <rect x="100" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="120" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="140" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="160" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="180" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <text x="208" y="11" class="mono teal" font-size="11">5/10</text>
+    </g>
+    <line x1="56" y1="328" x2="1144" y2="328" class="l-faint" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- TRACK 004 -->
+  <g>
+    <text x="56" y="368" class="mono dim" font-size="13">004</text>
+    <text x="140" y="368" class="mono pri" font-size="22" font-weight="600" letter-spacing="-0.6">PRODUCT</text>
+    <text x="140" y="388" class="mono warm" font-size="10" letter-spacing="1.2">PRIMARY · ACCENT</text>
+    <text x="490" y="368" class="mono mute" font-size="12">turning rough technical ideas into software people can actually use</text>
+    <g transform="translate(940, 356)">
+      <rect x="0"   y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="20"  y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="40"  y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="60"  y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="80"  y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="100" y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="120" y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="140" y="0" width="18" height="14" fill="#B45309"/>
+      <rect x="160" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <rect x="180" y="0" width="18" height="14" fill="none" stroke="#A8B0A8"/>
+      <text x="208" y="11" class="mono warm" font-size="11">8/10</text>
+    </g>
+  </g>
+
+  <!-- bottom footer -->
+  <line x1="40" y1="416" x2="1160" y2="416" class="l-faint" stroke-dasharray="2,4"/>
+  <text x="56" y="440" class="mono mute" font-size="11" letter-spacing="0.6">scheduling: morning systems · afternoon build · evening drill</text>
+  <text x="1160" y="440" class="mono dim" font-size="11" text-anchor="end" letter-spacing="1.6">UPDATED · 2026.05</text>
+
+  <!-- corner ticks -->
+  <path d="M 12 12 L 12 28 M 12 12 L 28 12" class="l-line"/>
+  <path d="M 1188 12 L 1188 28 M 1188 12 L 1172 12" class="l-line"/>
+  <path d="M 12 448 L 12 432 M 12 448 L 28 448" class="l-line"/>
+  <path d="M 1188 448 L 1188 432 M 1188 448 L 1172 448" class="l-line"/>
+</svg>

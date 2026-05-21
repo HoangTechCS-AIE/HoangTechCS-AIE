@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" role="img" aria-label="NHH-004 GitHub signal header">
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace; }
+    .pri { fill: #0B1110; }
+    .mute { fill: #535C57; }
+    .dim { fill: #8B9590; }
+    .teal { fill: #0F766E; }
+    .l-faint { stroke: #C7CDC4; stroke-width: 1; }
+    .l-line { stroke: #A8B0A8; stroke-width: 1; }
+    .l-teal { stroke: #0F766E; stroke-width: 1; }
+  </style>
+  <defs>
+    <pattern id="g4" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#D9DCD7"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="140" fill="#FAFAF7"/>
+  <rect width="1200" height="140" fill="url(#g4)"/>
+
+  <!-- top strip -->
+  <circle cx="40" cy="32" r="3" fill="#0F766E"/>
+  <text x="56" y="36" class="mono mute" font-size="11" letter-spacing="1.2">NHH-004 :: GITHUB SIGNAL / OUTPUT TELEMETRY</text>
+  <text x="1160" y="36" class="mono dim" font-size="11" text-anchor="end" letter-spacing="1.2">SRC · github-readme-stats</text>
+  <line x1="40" y1="54" x2="1160" y2="54" class="l-faint" stroke-dasharray="2,4"/>
+
+  <!-- left: large label -->
+  <text x="56" y="100" class="mono pri" font-size="34" font-weight="600" letter-spacing="-1">SIGNAL</text>
+  <line x1="56" y1="116" x2="160" y2="116" class="l-teal"/>
+  <text x="180" y="100" class="mono mute" font-size="13">commits · languages · streak · live below</text>
+
+  <!-- right: schematic mini graph -->
+  <g transform="translate(940, 70)">
+    <line x1="0" y1="48" x2="220" y2="48" class="l-faint"/>
+    <line x1="0" y1="32" x2="220" y2="32" class="l-faint" stroke-dasharray="2,3" opacity="0.5"/>
+    <line x1="0" y1="16" x2="220" y2="16" class="l-faint" stroke-dasharray="2,3" opacity="0.5"/>
+    <polyline points="0,40 24,36 48,38 72,30 96,32 120,22 144,26 168,18 192,14 216,10" fill="none" class="l-teal"/>
+    <circle cx="216" cy="10" r="2.5" fill="#B45309"/>
+    <text x="220" y="48" class="mono dim" font-size="9" text-anchor="end">t →</text>
+  </g>
+
+  <!-- corner ticks -->
+  <path d="M 12 12 L 12 28 M 12 12 L 28 12" class="l-line"/>
+  <path d="M 1188 12 L 1188 28 M 1188 12 L 1172 12" class="l-line"/>
+  <path d="M 12 128 L 12 112 M 12 128 L 28 128" class="l-line"/>
+  <path d="M 1188 128 L 1188 112 M 1188 128 L 1172 128" class="l-line"/>
+</svg>

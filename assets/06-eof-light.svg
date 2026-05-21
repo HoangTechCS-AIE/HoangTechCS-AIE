@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" role="img" aria-label="NHH end-of-file marker">
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Mono', Menlo, Consolas, monospace; }
+    .mute { fill: #535C57; }
+    .dim { fill: #8B9590; }
+    .teal { fill: #0F766E; }
+    .l-faint { stroke: #C7CDC4; stroke-width: 1; }
+    .l-line { stroke: #A8B0A8; stroke-width: 1; }
+  </style>
+  <defs>
+    <pattern id="g6" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#D9DCD7"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="100" fill="#FAFAF7"/>
+  <rect width="1200" height="100" fill="url(#g6)"/>
+
+  <line x1="40" y1="32" x2="1160" y2="32" class="l-faint" stroke-dasharray="2,4"/>
+  <text x="56" y="58" class="mono teal" font-size="11" letter-spacing="2.4">— EOF / NHH · 2026 —</text>
+  <text x="600" y="58" class="mono mute" font-size="11" text-anchor="middle" letter-spacing="1.2">drafted by hand · iterated openly · maintained quietly</text>
+  <text x="1160" y="58" class="mono dim" font-size="11" text-anchor="end" letter-spacing="1.2">END OF DOCUMENT</text>
+  <line x1="40" y1="76" x2="1160" y2="76" class="l-faint" stroke-dasharray="2,4"/>
+
+  <path d="M 12 12 L 12 28 M 12 12 L 28 12" class="l-line"/>
+  <path d="M 1188 12 L 1188 28 M 1188 12 L 1172 12" class="l-line"/>
+  <path d="M 12 88 L 12 72 M 12 88 L 28 88" class="l-line"/>
+  <path d="M 1188 88 L 1188 72 M 1188 88 L 1172 88" class="l-line"/>
+</svg>

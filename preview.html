@@ -4,35 +4,30 @@
   <meta charset="utf-8" />
   <title>README preview · NHH</title>
   <style>
-    :root { color-scheme: dark; }
-    body {
-      margin: 0;
-      background: #0d1117;
-      font-family: ui-monospace, 'SF Mono', Menlo, monospace;
-      color: #c9d1d9;
-    }
-    .wrap {
-      max-width: 1012px;
-      margin: 0 auto;
-      padding: 24px 16px 64px;
-    }
-    .wrap img { display: block; width: 100%; height: auto; margin: 0; }
+    body { margin: 0; font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; min-height: 100vh; }
+    .pane { padding: 24px 16px 64px; max-width: 720px; margin: 0 auto; }
+    .dark { background: #0d1117; color: #c9d1d9; }
+    .light { background: #ffffff; color: #1f2328; }
+    .pane img { display: block; width: 100%; height: auto; }
     .row { display: flex; gap: 0; justify-content: center; }
     .row img { width: auto; max-width: 50%; }
     .single { display: flex; justify-content: center; }
     .single img { width: auto; }
     .channels { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; padding: 0; }
     .channels img { width: auto; }
-    h1 { font-size: 12px; color: #6F837A; letter-spacing: 2px; margin: 24px 0 8px; }
+    h1 { font-size: 12px; letter-spacing: 2px; margin: 0 0 16px; opacity: 0.6; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>— LOCAL PREVIEW · NOT THE LIVE README —</h1>
-    <img src="./assets/01-identity.svg" alt="identity" />
-    <img src="./assets/02-operating-system.svg" alt="operating system" />
-    <img src="./assets/03-stack.svg" alt="stack" />
-    <img src="./assets/04-signal-header.svg" alt="signal header" />
+<div class="grid">
+
+  <div class="pane dark">
+    <h1>— DARK MODE —</h1>
+    <img src="./assets/01-identity.svg" />
+    <img src="./assets/02-operating-system.svg" />
+    <img src="./assets/03-stack.svg" />
+    <img src="./assets/04-signal-header.svg" />
     <div class="row">
       <img src="https://github-readme-stats.vercel.app/api?username=HoangTechCS-AIE&show_icons=true&hide_border=true&rank_icon=github&bg_color=0B1110&title_color=9CE7DA&text_color=DDE7DF&icon_color=F3D7A6" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoangTechCS-AIE&layout=compact&hide_border=true&bg_color=0B1110&title_color=9CE7DA&text_color=DDE7DF" />
@@ -40,14 +35,39 @@
     <div class="single">
       <img src="https://github-readme-streak-stats.herokuapp.com?user=HoangTechCS-AIE&hide_border=true&background=0B1110&ring=9CE7DA&fire=F3D7A6&currStreakLabel=9CE7DA&sideLabels=DDE7DF&currStreakNum=DDE7DF&sideNums=DDE7DF&dates=AEBBB5" />
     </div>
-    <img src="./assets/05-channels-header.svg" alt="channels header" />
+    <img src="./assets/05-channels-header.svg" />
     <div class="channels">
-      <a href="https://fb.com/htech.aie"><img src="https://img.shields.io/badge/01_·_facebook-0B1110?style=for-the-badge&logo=facebook&logoColor=9CE7DA&labelColor=0B1110" /></a>
-      <a href="https://instagram.com/htechcs_aie"><img src="https://img.shields.io/badge/02_·_instagram-0B1110?style=for-the-badge&logo=instagram&logoColor=9CE7DA&labelColor=0B1110" /></a>
-      <a href="https://codeforces.com/profile/incomprehensibilities"><img src="https://img.shields.io/badge/03_·_codeforces-0B1110?style=for-the-badge&logo=codeforces&logoColor=9CE7DA&labelColor=0B1110" /></a>
-      <a href="https://www.leetcode.com/hoangtechcs-aie"><img src="https://img.shields.io/badge/04_·_leetcode-0B1110?style=for-the-badge&logo=leetcode&logoColor=F3D7A6&labelColor=0B1110" /></a>
+      <img src="https://img.shields.io/badge/01_·_facebook-0B1110?style=for-the-badge&logo=facebook&logoColor=9CE7DA&labelColor=0B1110" />
+      <img src="https://img.shields.io/badge/02_·_instagram-0B1110?style=for-the-badge&logo=instagram&logoColor=9CE7DA&labelColor=0B1110" />
+      <img src="https://img.shields.io/badge/03_·_codeforces-0B1110?style=for-the-badge&logo=codeforces&logoColor=9CE7DA&labelColor=0B1110" />
+      <img src="https://img.shields.io/badge/04_·_leetcode-0B1110?style=for-the-badge&logo=leetcode&logoColor=F3D7A6&labelColor=0B1110" />
     </div>
-    <img src="./assets/06-eof.svg" alt="eof" />
+    <img src="./assets/06-eof.svg" />
   </div>
+
+  <div class="pane light">
+    <h1>— LIGHT MODE —</h1>
+    <img src="./assets/01-identity-light.svg" />
+    <img src="./assets/02-operating-system-light.svg" />
+    <img src="./assets/03-stack-light.svg" />
+    <img src="./assets/04-signal-header-light.svg" />
+    <div class="row">
+      <img src="https://github-readme-stats.vercel.app/api?username=HoangTechCS-AIE&show_icons=true&hide_border=true&rank_icon=github&bg_color=FAFAF7&title_color=0F766E&text_color=0B1110&icon_color=B45309" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HoangTechCS-AIE&layout=compact&hide_border=true&bg_color=FAFAF7&title_color=0F766E&text_color=0B1110" />
+    </div>
+    <div class="single">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=HoangTechCS-AIE&hide_border=true&background=FAFAF7&ring=0F766E&fire=B45309&currStreakLabel=0F766E&sideLabels=0B1110&currStreakNum=0B1110&sideNums=0B1110&dates=535C57" />
+    </div>
+    <img src="./assets/05-channels-header-light.svg" />
+    <div class="channels">
+      <img src="https://img.shields.io/badge/01_·_facebook-FAFAF7?style=for-the-badge&logo=facebook&logoColor=0F766E&labelColor=FAFAF7" />
+      <img src="https://img.shields.io/badge/02_·_instagram-FAFAF7?style=for-the-badge&logo=instagram&logoColor=0F766E&labelColor=FAFAF7" />
+      <img src="https://img.shields.io/badge/03_·_codeforces-FAFAF7?style=for-the-badge&logo=codeforces&logoColor=0F766E&labelColor=FAFAF7" />
+      <img src="https://img.shields.io/badge/04_·_leetcode-FAFAF7?style=for-the-badge&logo=leetcode&logoColor=B45309&labelColor=FAFAF7" />
+    </div>
+    <img src="./assets/06-eof-light.svg" />
+  </div>
+
+</div>
 </body>
 </html>
