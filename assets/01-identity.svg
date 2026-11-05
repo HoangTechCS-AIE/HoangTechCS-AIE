@@ -34,8 +34,8 @@
     <line x1="700" y1="98" x2="700" y2="106" class="l-line"/>
     <text x="378" y="94" class="mono dim" font-size="10" text-anchor="middle" letter-spacing="2">— DISPLAY / 644u —</text>
 
-    <text x="56" y="210" class="mono pri" font-size="92" font-weight="600" letter-spacing="-4">NGUYEN</text>
-    <text x="56" y="304" class="mono pri" font-size="92" font-weight="600" letter-spacing="-4">HUY HOANG</text>
+    <text x="56" y="210" class="mono pri" font-size="92" font-weight="600" letter-spacing="-4">IuIu</text>
+    <text x="56" y="304" class="mono pri" font-size="92" font-weight="600" letter-spacing="-4">MyDuyen</text>
 
     <!-- accent strap -->
     <line x1="56" y1="338" x2="200" y2="338" class="l-teal"/>

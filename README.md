@@ -11,7 +11,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/01-identity.svg" />
-  <img src="./assets/01-identity-light.svg" alt="Nguyen Huy Hoang — identity schematic" width="100%" />
+  <img src="./assets/01-identity-light.svg" alt="IuIuMyDuyen — identity schematic" width="100%" />
 </picture>
 
 <picture>
